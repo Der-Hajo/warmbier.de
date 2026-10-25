@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hajo Warmbier</title>
+<meta name="description" content="Private Website von Hajo Warmbier: Fotos, Projekte und Links.">
+<style>
+  :root{
+    --bg:#0D0D0D; --card:#1A1A1A; --line:#2A2A2A;
+    --text:#F2F2F0; --muted:#9A9A96; --soft:#C4C4C0; --accent:#D7FF3A;
+    --sans:'Archivo','Arial Black',Arial,sans-serif;
+    --mono:'JetBrains Mono',Consolas,'Courier New',monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--mono);font-size:14px}
+  a{color:var(--text);text-decoration:none}
+  a:hover,a:focus-visible{color:var(--accent)}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+
+  header .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;align-items:center;padding-top:24px;padding-bottom:24px}
+  header{border-bottom:1px solid var(--line)}
+  .logo{font-weight:500;letter-spacing:.12em}
+  nav{display:flex;flex-wrap:wrap;gap:4px 28px}
+  nav a{padding:10px 0}
+
+  .hero{padding-top:72px;padding-bottom:40px}
+  .kicker{margin:0 0 16px;color:var(--accent);letter-spacing:.12em}
+  h1{margin:0;font-family:var(--sans);font-weight:900;font-size:clamp(56px,12vw,144px);line-height:.86;letter-spacing:-.045em;text-transform:uppercase}
+  .lead{margin:32px 0 0;max-width:520px;font-family:var(--sans);font-size:19px;line-height:1.5;color:var(--soft)}
+
+  #fotos{padding-top:24px;padding-bottom:72px}
+  .label{margin:0 0 16px;color:var(--muted);letter-spacing:.12em}
+  .cards{display:flex;flex-wrap:wrap;gap:8px}
+  .card{flex:1 1 320px;min-width:0;border:1px solid var(--line);background:var(--card);padding:20px;display:flex;flex-direction:column;gap:28px;min-height:360px;transition:border-color .15s,background .15s}
+  .card:hover,.card:focus-visible{border-color:var(--accent);background:#151515}
+  .card-top{display:flex;justify-content:space-between;color:var(--muted)}
+  .card svg{align-self:center;margin:auto 0}
+  .card-title{display:block;font-family:var(--sans);font-weight:800;font-size:28px;text-transform:uppercase;letter-spacing:-.01em}
+  .card-open{display:block;margin-top:6px;color:var(--accent)}
+  .note{margin:20px 0 0;color:var(--muted)}
+
+  .columns{border-top:1px solid var(--line)}
+  .columns .wrap{display:flex;flex-wrap:wrap;gap:48px 32px;padding-top:56px;padding-bottom:72px}
+  .col{flex:1 1 300px;min-width:0}
+  h2{margin:0 0 20px;font-family:var(--sans);font-weight:800;font-size:28px;text-transform:uppercase}
+  .col a.row{display:block;padding:14px 0;border-top:1px solid var(--line)}
+  .col a.row.last{border-bottom:1px solid var(--line)}
+  .col p{margin:0;font-family:var(--sans);font-size:17px;line-height:1.6;color:var(--soft)}
+
+  footer{border-top:1px solid var(--line)}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px 32px;justify-content:space-between;padding-top:24px;padding-bottom:24px;color:var(--muted)}
+  footer a{color:var(--muted);padding:8px 0}
+  footer a:hover{color:var(--accent)}
+  .legal{display:flex;gap:24px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#start">WARMBIER.DE</a>
+    <nav aria-label="Hauptnavigation">
+      <a href="#fotos">/FOTOS</a>
+      <a href="#projekte">/PROJEKTE</a>
+      <a href="#links">/LINKS</a>
+      <a href="#info">/INFO</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="start" class="wrap hero">
+    <p class="kicker">ROLLE 01 / PRIVATES ARCHIV</p>
+    <h1>Hajo<br>Warmbier</h1>
+    <p class="lead">Fotos, Projekte und Links. Alles auf einem Kontaktbogen. [KURZER EIGENER SATZ]</p>
+  </section>
+
+  <section id="fotos" class="wrap">
+    <p class="label">FOTOS / 3 GALERIEN</p>
+    <div class="cards">
+      <!-- Die Links (#fotos) werden später durch die Synology-Freigabelinks ersetzt. -->
+      <a class="card" href="#fotos">
+        <span class="card-top"><span>01</span><span>GESCHÜTZT</span></span>
+        <svg width="112" height="112" viewBox="0 0 96 96" fill="none" stroke="#D7FF3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M50 84 C50 66 48 50 52 34"/>
+          <path d="M52 34 C38 24 26 28 18 38"/>
+          <path d="M52 34 C46 18 34 14 24 16"/>
+          <path d="M52 34 C62 20 74 20 82 26"/>
+          <path d="M52 34 C64 30 76 38 80 48"/>
+          <path d="M30 84 H72"/>
+        </svg>
+        <span><span class="card-title">NIH LA 2026</span><span class="card-open">ALBUM ÖFFNEN &#8599;</span></span>
+      </a>
+
+      <a class="card" href="#fotos">
+        <span class="card-top"><span>02</span><span>GESCHÜTZT</span></span>
+        <svg width="112" height="112" viewBox="0 0 96 96" fill="none" stroke="#D7FF3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="48" cy="52" r="32"/>
+          <path d="M48 6 V14"/>
+          <path d="M22 16 L27 22"/>
+          <path d="M74 16 L69 22"/>
+          <text x="48" y="64" text-anchor="middle" font-family="Archivo, Arial Black, sans-serif" font-weight="800" font-size="34" fill="#D7FF3A" stroke="none">50</text>
+        </svg>
+        <span><span class="card-title">Oli 50</span><span class="card-open">ALBUM ÖFFNEN &#8599;</span></span>
+      </a>
+
+      <a class="card" href="#fotos">
+        <span class="card-top"><span>03</span><span>GESCHÜTZT</span></span>
+        <svg width="112" height="112" viewBox="0 0 96 96" fill="none" stroke="#D7FF3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="36" cy="48" r="26"/>
+          <circle cx="60" cy="48" r="26"/>
+          <circle cx="48" cy="48" r="3" fill="#D7FF3A" stroke="none"/>
+        </svg>
+        <span><span class="card-title">Fusion</span><span class="card-open">ALBUM ÖFFNEN &#8599;</span></span>
+      </a>
+    </div>
+    <p class="note">ORIGINALE LIEGEN AUF MEINEM EIGENEN SERVER &middot; ZUGANG MIT PASSWORT</p>
+  </section>
+
+  <section class="columns">
+    <div class="wrap">
+      <div id="projekte" class="col">
+        <h2>Projekte</h2>
+        <a class="row" href="#projekte">01 [PROJEKTNAME]</a>
+        <a class="row" href="#projekte">02 [PROJEKTNAME]</a>
+        <a class="row last" href="#projekte">03 [PROJEKTNAME]</a>
+      </div>
+      <div id="links" class="col">
+        <h2>Links</h2>
+        <a class="row" href="#links">&#8599; [LINK 1]</a>
+        <a class="row" href="#links">&#8599; [LINK 2]</a>
+        <a class="row last" href="#links">&#8599; [LINK 3]</a>
+      </div>
+      <div id="info" class="col">
+        <h2>Info</h2>
+        <p>[Kurzer Text über dich.]<br><br>[E-MAIL-ADRESSE]</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 HAJO WARMBIER</span>
+    <span class="legal"><a href="#info">IMPRESSUM</a><a href="#info">DATENSCHUTZ</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
