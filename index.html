@@ -45,7 +45,8 @@
   nav{display:flex;flex-wrap:wrap;gap:4px 28px}
   nav a{padding:10px 0}
 
-  .hero{padding-top:72px;padding-bottom:40px}
+  .hero{padding-top:72px;padding-bottom:40px;display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px 40px}
+  .hero-img{display:block;width:clamp(180px,22vw,280px);height:auto}
   .kicker{margin:0 0 16px;color:var(--accent);letter-spacing:.12em}
   h1{margin:0;font-family:var(--sans);font-weight:900;font-size:clamp(56px,12vw,144px);line-height:.86;letter-spacing:-.045em;text-transform:uppercase}
   .lead{margin:32px 0 0;max-width:520px;font-family:var(--sans);font-size:19px;line-height:1.5;color:var(--soft)}
@@ -94,9 +95,12 @@
 
 <main>
   <section id="start" class="wrap hero">
-    <p class="kicker">ROLLE 01 / PRIVATES ARCHIV</p>
+    <div class="hero-text">
+    <p class="kicker">PRIVATE WEBSITE</p>
     <h1>Hajo<br>Warmbier</h1>
-    <p class="lead">Fotos, Projekte und Links. Alles auf einem Kontaktbogen.</p>
+    <p class="lead">Fotos, Projekte und Links.</p>
+    </div>
+    <img class="hero-img" src="/bilder/hajo-raster.png" width="1000" height="1000" alt="Hajo Warmbier, Porträt im Rasterstil">
   </section>
 
   <section id="fotos" class="wrap">
