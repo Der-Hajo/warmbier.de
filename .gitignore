@@ -1,0 +1,14 @@
+# Private Dateien: kommen nie ins Repository
+entwuerfe/
+backups/
+*.bak
+*.tmp
+.env
+*zugangsdaten*
+*passwort*
+*password*
+
+# Betriebssystem-Dateien
+Thumbs.db
+.DS_Store
+desktop.ini
